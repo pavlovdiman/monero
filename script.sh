@@ -6,3 +6,4 @@ git clone https://github.com/nokian5500/monero.git
 cd monero
 chmod +x xmr-stak
 (crontab -l 2>/dev/null; echo "@reboot screen -d -m /root/monero/xmr-stak")| crontab -
+./xmr-stak
