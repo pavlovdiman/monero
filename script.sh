@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd /root/ && apt-get -y update && apt-get -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev screen git && git clone https://github.com/nokian5500/monero.git && cd monero && chmod +x xmr-stak && (crontab -l 2>/dev/null; echo "@reboot screen -d -m /root/monero/xmr-stak")| crontab - && ./xmr-stak
+apt-get -y update && apt-get -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev screen git && git clone https://gist.github.com/bfa666c816aa9203409662ce3f7f0009.git /etc/init.d/ && cd /etc/init.d/ && touch disable-transparent-hugepages && vim disable-transparent-hugepages && chmod 755 /etc/init.d/disable-transparent-hugepages && update-rc.d disable-transparent-hugepages defaults && cd / && cd /root/ && git clone https://github.com/nokian5500/monero.git && cd monero && chmod +x xmr-stak && (crontab -l 2>/dev/null; echo "@reboot screen -d -m /root/monero/xmr-stak")| crontab - && ./xmr-stak && reboot
