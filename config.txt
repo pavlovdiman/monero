@@ -14,6 +14,8 @@
 "pool_list" :
 [
 	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.ubuntu", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
+	{"pool_address" : "stratum+ssl://cryptonight.eu.nicehash.com:33355", "wallet_address" : "36p86FMNr7fvsDgSHT7jmME172qBYxcE82", "pool_password" : "x", "use_nicehash" : true, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 9 },
+	{"pool_address" : "stratum+tcp://cryptonight.usa.nicehash.com:3355", "wallet_address" : "36p86FMNr7fvsDgSHT7jmME172qBYxcE82", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 9 },
 	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.europe", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 7 },
 	{"pool_address" : "asia.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.asia", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 6 },
 ],
