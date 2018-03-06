@@ -14,9 +14,11 @@
 "pool_list" :
 [
 	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
-	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 7 },
-	{"pool_address" : "asia.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 6 },
-		{"pool_address" : "stratum+tcp://cryptonight.usa.nicehash.com:3355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 9 },
+	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
+	{"pool_address" : "asia.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
+	{"pool_address" : "stratum+tcp://cryptonight.usa.nicehash.com:3355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 9 },
+	{"pool_address" : "stratum+tcp://cryptonight.eu.nicehash.com:3355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 9 },
+	{"pool_address" : "stratum+tcp://cryptonight.in.nicehash.com:3355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 9 },
 ],
 
 /*
@@ -39,7 +41,7 @@
  * giveup_limit - Limit how many times we try to reconnect to the pool. Zero means no limit. Note that stak miners
  *                don't mine while the connection is lost, so your computer's power usage goes down to idle.
  */
-"call_timeout" : 10,
+"call_timeout" : 14,
 "retry_time" : 20,
 "giveup_limit" : 0,
 
