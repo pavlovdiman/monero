@@ -16,6 +16,7 @@
 	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
 	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 7 },
 	{"pool_address" : "asia.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 6 },
+		{"pool_address" : "stratum+tcp://cryptonight.usa.nicehash.com:3355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 9 },
 ],
 
 /*
@@ -39,7 +40,7 @@
  *                don't mine while the connection is lost, so your computer's power usage goes down to idle.
  */
 "call_timeout" : 10,
-"retry_time" : 30,
+"retry_time" : 20,
 "giveup_limit" : 0,
 
 /*
@@ -57,7 +58,7 @@
  *
  * print_motd    - Display messages from your pool operator in the hashrate result.
  */
-"verbose_level" : 3,
+"verbose_level" : 0,
 "print_motd" : true,
 
 /*
@@ -76,7 +77,7 @@
  *
  * WARNING: setting this to true on a CPU that doesn't support hardware AES will crash the miner.
  */
-"aes_override" : null,
+"aes_override" : true,
 
 /*
  * LARGE PAGE SUPPORT
@@ -136,7 +137,7 @@
  * If you are running the process in the background and you don't need the keyboard reports, set this to true.
  * This should solve the hashrate problems on some emulated terminals.
  */
-"daemon_mode" : false,
+"daemon_mode" : true,
 
 /*
  * Buffered output control.
@@ -144,7 +145,7 @@
  * each output line immediately. This can cause delays when running in background.
  * Set this option to true to flush stdout after each line, so it can be read immediately.
  */
-"flush_stdout" : false,
+"flush_stdout" : true,
 
 /*
  * Output file
