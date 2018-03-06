@@ -16,9 +16,9 @@
 	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
 	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
 	{"pool_address" : "asia.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.vmware", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
-	{"pool_address" : "stratum+ssl://cryptonight.usa.nicehash.com:33355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 9 },
+	{"pool_address" : "stratum+ssl://cryptonight.usa.nicehash.com:33355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 10 },
 	{"pool_address" : "stratum+tcp://cryptonight.eu.nicehash.com:3355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 9 },
-	{"pool_address" : "stratum+tcp://cryptonight.in.nicehash.com:3355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 9 },
+	{"pool_address" : "stratum+tcp://cryptonight.in.nicehash.com:3355", "wallet_address" : "3FNzaPcnchsWhqkQZ8G3jnQCjMqhoFeobY", "pool_password" : "x", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
 ],
 
 /*
@@ -139,7 +139,7 @@
  * If you are running the process in the background and you don't need the keyboard reports, set this to true.
  * This should solve the hashrate problems on some emulated terminals.
  */
-"daemon_mode" : true,
+"daemon_mode" : false,
 
 /*
  * Buffered output control.
@@ -147,7 +147,7 @@
  * each output line immediately. This can cause delays when running in background.
  * Set this option to true to flush stdout after each line, so it can be read immediately.
  */
-"flush_stdout" : true,
+"flush_stdout" : false,
 
 /*
  * Output file
