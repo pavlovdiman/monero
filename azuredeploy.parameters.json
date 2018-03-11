@@ -1,7 +1,19 @@
-{
+\{
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
-    "parameters": {	
+    "parameters": {
+    "vmSku": {
+      "value": "Standard_F8s"
+    },
+      "Location": {
+       "value": "australiaeast"
+    },
+    "vmssName": {
+      "value": "GEN-UNIQUE-8"
+    },
+    "instanceCount": {
+      "value": 43
+    }
     }
 }
 
