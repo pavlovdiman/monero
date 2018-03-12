@@ -13,8 +13,8 @@
  */
 "pool_list" :
 [
-	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.usa", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 10 },
-	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20596", "wallet_address" : "3107.euro", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 7 },
+	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.usa", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 10 },
+	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.euro", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 7 },
 ],
 
 /*
