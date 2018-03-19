@@ -4,7 +4,6 @@
     "parameters": {
 	            "vmSku": {
             "type": "string",
-		"defaultValue": "Standard_F8s",
             "metadata": {
             "description": ""
             }
