@@ -43,7 +43,7 @@
         "location": "[resourceGroup().location]",
         "addressPrefix": "10.0.0.0/16",
         "subnetPrefix": "10.0.0.0/24",
-        "virtualNetworkName": "[(concat(parameters('vmssName'), uniqueString(resourceGroup().id))]",
+        "virtualNetworkName": "[(concat(parameters('vmssName')]",
         "publicIPAddressName": "[toLower(concat(parameters('vmssName'), uniqueString(resourceGroup().id))]",
         "subnetName": "[concat(parameters('vmssName'), 'subnet')]",
         "loadBalancerName": "[concat(parameters('vmssName'), 'lb', uniqueString(resourceGroup().id))]",
