@@ -2,20 +2,8 @@
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "vmSku": {
-      "value": "Standard_F8s"
-    },
     "vmssName": {
-      "value": "GEN-UNIQUE-32"
+      "value": "GEN-UNIQUE-8"
     },
-    "instanceCount": {
-      "value": 43
-    },
-    "adminUsername": {
-      "value": "linux"
-    },
-    "adminPassword": {
-      "value": "Romik1994rus!"
-    }
   }
 }
