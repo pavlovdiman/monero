@@ -3,7 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmssName": {
-      "value": "GEN-UNIQUE-8"
+      "value": "GEN-UNIQUE"
     },
+    	"dnsName": {
+            "value": "GEN-UNIQUE"
+	},
   }
 }
