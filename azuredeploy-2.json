@@ -44,18 +44,18 @@
         "location": "[resourceGroup().location]",
         "addressPrefix": "10.0.0.0/16",
         "subnetPrefix": "10.0.0.0/24",
-        "virtualNetworkName": "[concat(parameters('vmssName'), 'vnet')]",
-        "publicIPAddressName": "[concat(parameters('vmssName'), 'pip')]",
+        "virtualNetworkName": "[toLower(concat(parameters('vmssName'), uniqueString(resourceGroup().id))]",
+        "publicIPAddressName": "[toLower(concat(parameters('vmssName'), uniqueString(resourceGroup().id))]",
         "subnetName": "[concat(parameters('vmssName'), 'subnet')]",
-        "loadBalancerName": "[concat(parameters('vmssName'), 'lb')]",
-        "publicIPAddressID": "[resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName'))]",
+        "loadBalancerName": "[concat(parameters('vmssName'), 'lb', uniqueString(resourceGroup().id))]",
+        "publicIPAddressID": "[resourceId('Microsoft.Network/publicIPAddresses',variables('publicIPAddressName'), uniqueString(resourceGroup().id))]",
         "lbID": "[resourceId('Microsoft.Network/loadBalancers',variables('loadBalancerName'))]",
         "natPoolName": "[concat(parameters('vmssName'), 'natpool')]",
         "bePoolName": "[concat(parameters('vmssName'), 'bepool')]",
         "natStartPort": 50000,
         "natEndPort": 50120,
         "natBackendPort": 22,
-        "nicName": "[concat(parameters('vmssName'), 'nic')]",
+        "nicName": "[toLower(concat(parameters('vmssName'), 'nic', uniqueString(resourceGroup().id))]",
         "ipConfigName": "[concat(parameters('vmssName'), 'ipconfig')]",
         "frontEndIPConfigID": "[concat(variables('lbID'),'/frontendIPConfigurations/loadBalancerFrontEnd')]",
         "osType": {
@@ -99,7 +99,7 @@
             "properties": {
                 "publicIPAllocationMethod": "Dynamic",
                 "dnsSettings": {
-                    "domainNameLabel": "[parameters('vmssName')]"
+                    "domainNameLabel": "[toLower(parameters('vmssName')], uniqueString(resourceGroup().id))"
                 }
             }
         },
