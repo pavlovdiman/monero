@@ -1,3 +1,16 @@
+"pool_list" :
+[
+	{"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.4cpu", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 8 },
+	{"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.4cpu", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 7 },
+	{"pool_address" : "asia.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.4cpu", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 6 },
+],
+
+/*
+ * currency to mine
+ * allowed values: 'monero' or 'aeon'
+ */
+"currency" : "cryptonight7",
+
 "call_timeout" : 10,
 "retry_time" : 30,
 "giveup_limit" : 0,
