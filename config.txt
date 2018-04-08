@@ -9,7 +9,7 @@
  * currency to mine
  * allowed values: 'monero' or 'aeon'
  */
-"currency" : "cryptonight7",
+"currency" : "monero7",
 
 "call_timeout" : 10,
 "retry_time" : 30,
