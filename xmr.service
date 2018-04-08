@@ -3,7 +3,7 @@ Description=xmr
 After=network.target
 
 [Service]
-ExecStart=/root/monero/xmr-stak -c /root/monero/config.txt
+ExecStart=/root/monero/xmr-stak -c /root/monero/config.txt -C /root/monero/pools.txt
 User=root
 
 [Install]
