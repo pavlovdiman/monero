@@ -1,4 +1,4 @@
-"call_timeout" : 10,
+"call_timeout" : 30,
 "retry_time" : 15,
 "giveup_limit" : 0,
 "verbose_level" : 0,
