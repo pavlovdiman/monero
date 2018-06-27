@@ -14,8 +14,10 @@
 
 "pool_list" :
 [
-        {"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.V7", "rig_id" : "", "pool_password" : "x", "use_nicehash" : false, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 5 },
-                {"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.V7EU", "rig_id" : "", "pool_password" : "x", "use_nicehash" : false, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 5 },
+        {"pool_address" : "us-east.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "pavlov1411073.usa", "rig_id" : "", "pool_password" : "x", "use_nicehash" : false, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 9 },
+                {"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.europe", "rig_id" : "", "pool_password" : "x", "use_nicehash" : false, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 7 },
+                                {"pool_address" : "europe.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.Diman", "rig_id" : "", "pool_password" : "x", "use_nicehash" : false, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 9 },
+                                                                {"pool_address" : "asia.cryptonight-hub.miningpoolhub.com:20580", "wallet_address" : "3107.asia", "rig_id" : "", "pool_password" : "x", "use_nicehash" : false, "use_tls" : true, "tls_fingerprint" : "", "pool_weight" : 8 },
 ],
 "currency" : "monero7"
                                
